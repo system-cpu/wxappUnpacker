@@ -14,6 +14,11 @@ Android 手机最近使用过的微信小程序所对应的 wxapkg 包文件都�
 
 其中`{User}` 为当前用户的用户名，类似于 `2bc**************b65`。
 
+### 使用
+
+  node wuWxapkg.js  .wxapkg 的文件路径   // 例子  D:/node/wxappUnpacker-master._1123949441_321.wxapkg
+
+
 ### 另注
 
 所有命令上都可以使用`-f`指令来提高一定的并行度，但输出信息会混乱。
