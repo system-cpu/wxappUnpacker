@@ -2,8 +2,8 @@
 
 ![版本 0.3](https://img.shields.io/badge/版本-0.3-red.svg) ![支持的微信版本 >20180111](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E7%89%88%E6%9C%AC-%3E=20180111-brightgreen.svg) ![高级特性支持度 0](https://img.shields.io/badge/%E6%94%AF%E6%8C%81-0%25-yellow.svg)
 
-> Forked from https://github.com/qwerty472123/wxappUnpacker
-
+> Forked from https://github.com/system-cpu/wxappUnpacker
+ 
 > Wechat App(微信小程序, .wxapkg)解包及相关文件(.wxss, .json, .wxs, .wxml)还原工具
 
 > 欢迎大家使用本程序解包一些开源或经作者授权的小程序包供学习小程序编写或供在电脑端使用小程序或通过研究本项目代码来了解小程序本地运行的部分原理、发现小程序编译时本身的[一些问题](https://github.com/qwerty472123/wxappUnpacker/commit/73580c3afecad8c59e14ea7252dcedd8034e6c3a)（这个或许现在已经修了）...
