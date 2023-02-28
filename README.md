@@ -25,6 +25,9 @@ npm install js-beautify
 Android 手机最近使用过的微信小程序所对应的 wxapkg 包文件都存储在特定文件夹下，可通过以下命令查看：
 
 adb pull /data/data/com.tencent.mm/MicroMsg/{User}/appbrand/pkg
+
+
+--
 node wuWxapkg.js  .wxapkg
 
 其中`{User}` 为当前用户的用户名，类似于 `2bc**************b65`。
@@ -44,7 +47,6 @@ node wuWxapkg.js  .wxapkg
     - windows系统使用: `./bingo.bat testpkg/sub-1-xxx.wxapkg -s=../master-xxx`
     - Linux系统使用:  `./bingo.sh testpkg/sub-1-xxx.wxapkg -s=../master-xxx`
 
-觉得麻烦?可以使用[自助解包客户端](#自助解包客户端)
 
 TIP
 > -s 参数可为相对路径或绝对路径, 推荐使用绝对路径, 因为相对路径的起点不是当前目录 而是子包解包后的目录
